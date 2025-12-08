@@ -1,71 +1,110 @@
+/* Reset & 基础设定 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #2C3E50;
-    background-image: linear-gradient(to right, #1F3A5A, #34495E); /* 渐变背景 */
-    background-size: cover;
-    color: white;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #1e2630 0%, #2f3b4a 100%);
+  color: #eee;
+  line-height: 1.6;
 }
 
-header {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+/* 头部 */
+.site-header {
+  padding: 60px 20px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+.site-header h1 {
+  font-size: 2.5rem;
+}
+.site-header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #ccc;
 }
 
-nav {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 10px;
+/* 导航 */
+.site-nav {
+  background: rgba(0,0,0,0.7);
+}
+.site-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.site-nav li {
+  margin: 0 15px;
+}
+.site-nav a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.site-nav a:hover {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+/* 模块通用 */
+.module {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.module h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  border-bottom: 2px solid #555;
+  display: inline-block;
+  padding-bottom: 10px;
+  color: #fff;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+/* 卡片布局 */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 260px;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  background: rgba(0,0,0,0.8);
+}
+.card img {
+  width: 100%;
+  display: block;
+}
+.card h3 {
+  padding: 15px 10px 5px;
+  font-size: 1.3rem;
+  color: #fff;
+}
+.card p {
+  padding: 0 15px 15px;
+  color: #ddd;
+  font-size: 0.95rem;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
-}
-
-h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.player, .champion, .highlight {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.player-img, .champion-img, .highlight-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-footer {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* 页脚 */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  color: #aaa;
+  margin-top: 40px;
 }
