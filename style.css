@@ -2,9 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0a0a0a;
+    background-color: #2C3E50;
+    background-image: linear-gradient(to right, #1F3A5A, #34495E); /* 渐变背景 */
     background-size: cover;
-    background-position: center center;
     color: white;
 }
 
