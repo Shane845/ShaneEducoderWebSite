@@ -1,94 +1,158 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>我的 LoL 世界</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方寸之间：麻将历史与文化之旅</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <h1>我的英雄联盟世界</h1>
-      <p>选手 · 英雄 · 世界赛 · 精彩瞬间</p>
-    </div>
-  </header>
+    <header id="main-header">
+        <div class="container">
+            <h1>方寸之间</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#history">发展历程</a></li>
+                    <li><a href="#culture">麻将文化</a></li>
+                    <li><a href="#interact">互动体验</a></li>
+                    <li><a href="#resources">资源库</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <nav class="site-nav">
-    <ul>
-      <li><a href="#players">选手</a></li>
-      <li><a href="#champions">英雄</a></li>
-      <li><a href="#highlights">精彩瞬瞬</a></li>
-    </ul>
-  </nav>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>麻将：从叶子戏到全球风靡的艺术</h2>
+            <p>跨越千年，方寸牌面承载着东方的智慧、艺术和社交哲学。</p>
+            <a href="#history" class="btn-cta">探索历史长河</a>
+        </div>
+        <div class="hero-image-placeholder">
 
-  <!-- 选手模块 -->
-  <section id="players" class="module">
-    <h2>我喜爱的选手</h2>
+        </div>
+    </section>
 
-    <div class="cards">
-      <div class="card">
-        <img src="images/theShy.jpg" alt="TheShy">
-        <h3>TheShy</h3>
-        <p>IG 上单，2018 年全球总决赛冠军……（这里填你的描述）</p>
-      </div>
+    <section id="history" class="history-section container">
+        <h2>⏳ 发展历程：从起源到定型</h2>
+        <div class="timeline">
 
-      <div class="card">
-        <img src="images/zeus.jpg" alt="Zeus">
-        <h3>Zeus</h3>
-        <p>T1 上单，……（你的文字）</p>
-      </div>
+            <div class="timeline-item" data-stage="origin">
+                <h3>起源之谜：叶子戏与马吊牌</h3>
+                <p>麻将的雏形可以追溯到中国古代的纸牌游戏——马吊牌和叶子戏。牌型多变，玩法复杂。</p>
+                <button class="toggle-details">查看详情</button>
+                <div class="details-content hidden">
+                    <p>这一时期的牌面多为纸质，内容与货币、文学故事相关。是文人雅士的消遣方式。</p>
+                    <div class="history-image-placeholder">
 
-      <!-- 更多选手 card，如 Gumayusi, Deft, Keria, Faker …… -->
-    </div>
-  </section>
+                    </div>
+                </div>
+            </div>
 
-  <!-- 英雄模块 -->
-  <section id="champions" class="module">
-    <h2>我喜爱的英雄</h2>
+            <div class="timeline-item" data-stage="qing">
+                <h3>明清演变：从纸牌到竹骨牌</h3>
+                <p>为适应户外环境和追求耐用性，纸质牌逐渐被竹子和骨头制成的竹骨牌取代，牌面图案也趋于固定。</p>
+                <button class="toggle-details">查看详情</button>
+                <div class="details-content hidden">
+                    <p>“筒”、“索”、“万”以及字牌系统的定型，麻将的基本结构在此阶段确立。</p>
+                    <div class="history-image-placeholder">
 
-    <div class="cards">
-      <div class="card">
-        <img src="images/jayce.jpg" alt="Jayce">
-        <h3>杰斯 (Jayce)</h3>
-        <p>灵活 + 高爆发 …</p>
-      </div>
+                    </div>
+                </div>
+            </div>
 
-      <div class="card">
-        <img src="images/fiora.jpg" alt="Fiora">
-        <h3>剑姬 (Fiora)</h3>
-        <p>精准操作 + 单杀能力 …</p>
-      </div>
+            <div class="timeline-item" data-stage="modern">
+                <h3>近代定型：全球化与标准统一</h3>
+                <p>19世纪末20世纪初，“麻将”一词开始广泛使用。西方传教士将麻将带回欧美，引发全球热潮。</p>
+                <button class="toggle-details">查看详情</button>
+                <div class="details-content hidden">
+                    <p>麻将规则开始在国际上形成各种版本，促使现代麻将比赛和标准化的出现。</p>
+                    <div class="history-image-placeholder">
 
-      <!-- 更多英雄 card，如 Aatrox, Nidalee …… -->
-    </div>
-  </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- 世界赛精彩瞬间模块 -->
-  <section id="highlights" class="module">
-    <h2>世界赛精彩瞬间</h2>
+    <section id="culture" class="culture-section">
+        <div class="container">
+            <h2>🌍 麻将文化：地方规则与牌面艺术</h2>
 
-    <div class="cards">
-      <div class="card">
-        <img src="images/gumayusi-dragon.jpg" alt="Gumayusi 抢龙">
-        <h3>Gumayusi 抢龙</h3>
-        <p>在 2021 年全球总决赛中 …（你的描述）</p>
-      </div>
+            <div class="rule-gallery">
+                <h3>地方特色规则</h3>
+                <p>点击查看不同地区的麻将玩法：</p>
+                <div class="rule-card">
+                    <h4>四川麻将：血战到底</h4>
+                    <p>特点：定缺、换三张、自摸加番，战斗节奏快。</p>
+                    <div class="culture-image-placeholder">
 
-      <div class="card">
-        <img src="images/kingen-zeus.jpg" alt="Kingen 单杀 Zeus">
-        <h3>Kingen 单杀 Zeus</h3>
-        <p>在 2022 年 LCK …（你的描述）</p>
-      </div>
+                    </div>
+                </div>
+                <div class="rule-card">
+                    <h4>日本麻将：立直与宝牌</h4>
+                    <p>特点：有“立直”宣告、使用“点棒”计分，重视防守策略。</p>
+                    <div class="culture-image-placeholder">
 
-      <!-- 可以继续加更多精彩时刻 -->
-    </div>
-  </section>
+                    </div>
+                </div>
+            </div>
 
-  <footer class="site-footer">
-    <p>© 2025 我的英雄联盟世界</p>
-  </footer>
+            <div class="art-showcase">
+                <h3>牌面艺术鉴赏</h3>
+                <p>麻将牌不仅是工具，更是精湛的工艺品。</p>
+                <div class="art-image-placeholder">
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interact" class="interact-section container">
+        <h2>🤝 互动体验：分享与测试</h2>
+
+        <div class="quiz-box">
+            <h3>趣味小测试：你是哪张麻将牌？</h3>
+            <form id="mahjong-quiz-form">
+                <p>1. 你的社交风格更接近：</p>
+                <input type="radio" name="q1" value="A"> A. 擅长串联资源，四处奔走（发/白）<br>
+                <input type="radio" name="q1" value="B"> B. 稳定而扎实，追求最大价值（万）<br>
+                <button type="submit" class="btn-submit">获取结果</button>
+            </form>
+            <div id="quiz-result" class="hidden">你的结果是：**红中**！象征着热情和力量。</div>
+        </div>
+
+        <div class="comment-section">
+            <h3>玩家留言板</h3>
+            <form id="comment-form">
+                <input type="text" id="username" placeholder="你的昵称" required>
+                <textarea id="comment" placeholder="分享你的麻将故事..." required></textarea>
+                <button type="submit" class="btn-submit">提交留言</button>
+            </form>
+            <div id="comments-list">
+                </div>
+        </div>
+    </section>
+
+    <section id="resources" class="resources-section container">
+        <h2>📚 资源库：深入学习</h2>
+        <div class="resource-links">
+            <ul>
+                <li><a href="#" target="_blank">《麻将的文化史》</a> - 学术书籍推荐</li>
+                <li><a href="#" target="_blank">国际麻将规则介绍视频</a> - (视频链接占位)</li>
+                <li><a href="#" target="_blank">世界麻将组织官网</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 方寸之间：麻将历史与文化之旅. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
