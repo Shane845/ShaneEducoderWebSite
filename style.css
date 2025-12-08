@@ -2,22 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0a0a0a;
-    background-image: url('images/demacia-background.jpg'); /* 德玛西亚背景图 */
-    background-size: cover;
-    background-position: center center;
-    color: white;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #444;
     color: white;
     padding: 10px;
 }
@@ -40,29 +36,12 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: white;
     border-radius: 5px;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.player, .champion, .highlight {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.player-img, .champion-img, .highlight-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
 footer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
