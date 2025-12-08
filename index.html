@@ -3,49 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网页</title>
+    <title>英雄联盟网页</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>欢迎来到我的网站</h1>
+        <h1>我的英雄联盟世界</h1>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#home">首页</a></li>
-            <li><a href="#about">关于我</a></li>
-            <li><a href="#theShy">TheShy的故事</a></li>
-            <li><a href="#contact">联系方式</a></li>
+            <li><a href="#players">选手介绍</a></li>
+            <li><a href="#champions">英雄介绍</a></li>
+            <li><a href="#highlights">世界赛精彩瞬间</a></li>
         </ul>
     </nav>
 
-    <section id="home">
-        <h2>首页内容</h2>
-        <p>这里是主页的内容，您可以介绍自己或添加其他信息。</p>
+    <!-- 选手介绍模块 -->
+    <section id="players">
+        <h2>我喜爱的选手</h2>
+        <p>我非常喜欢以下三位《英雄联盟》的职业选手，他们都是我的偶像：</p>
+
+        <div class="player">
+            <h3>TheShy</h3>
+            <img src="images/theShy.jpg" alt="TheShy" class="player-img">
+            <p>TheShy，IG战队的上单选手，以其深厚的技术功底和极具个人风格的英雄池著称，尤其以刀妹和瑞兹闻名。</p>
+        </div>
+
+        <div class="player">
+            <h3>Zeus</h3>
+            <img src="images/zeus.jpg" alt="Zeus" class="player-img">
+            <p>Zeus，T1战队的上单选手，以稳定的发挥和极高的天赋成为LCK赛区的顶级选手之一。</p>
+        </div>
+
+        <div class="player">
+            <h3>BDD</h3>
+            <img src="images/bdd.jpg" alt="BDD" class="player-img">
+            <p>BDD，韩国LCK赛区的中单选手，曾效力于KONGDOO MONSTER和Gen.G战队，以其过人的游戏理解和出色的个人操作著称。</p>
+        </div>
     </section>
 
-    <section id="about">
-        <h2>关于我</h2>
-        <p>我是一个热爱游戏的人，尤其是《英雄联盟》。这款游戏带给我无数的快乐与挑战。</p>
+    <!-- 英雄介绍模块 -->
+    <section id="champions">
+        <h2>我喜爱的英雄</h2>
+        <p>以下是我最喜欢的两位英雄，分别是杰斯和剑姬，他们都在游戏中具有极高的操作性和独特的玩法：</p>
+
+        <div class="champion">
+            <h3>杰斯 (Jayce)</h3>
+            <img src="images/jayce.jpg" alt="Jayce" class="champion-img">
+            <p>杰斯是一名极具灵活性的上单英雄，可以根据战斗的需要切换形态，适应各种战局。他的爆发力和机动性使他在比赛中极具威胁。</p>
+        </div>
+
+        <div class="champion">
+            <h3>剑姬 (Fiora)</h3>
+            <img src="images/fiora.jpg" alt="Fiora" class="champion-img">
+            <p>剑姬是一名以精准操作为核心的高技能上单英雄，凭借其高爆发和精准击杀敌人弱点的能力，常常成为比赛的决胜因素。</p>
+        </div>
     </section>
 
-    <section id="theShy">
-        <h2>TheShy的故事</h2>
-        <p>在《英雄联盟》的世界里，TheShy 是一个传奇人物。他是LCK赛区历史上最顶尖的上单选手之一，曾效力于IG战队，并帮助团队赢得了2018年《英雄联盟》全球总决赛的冠军。</p>
-        <p>TheShy（本名姜承録）以其独特的英雄池和过人的操作技巧闻名。他的“刀妹”和“瑞兹”是他最著名的英雄，尤其在2018年世界赛中，他凭借这些英雄的精彩表现赢得了无数观众的喝彩。</p>
-        <p>他不仅在赛场上充满斗志，还以冷静的头脑和强大的心态应对每一场比赛。TheShy的成功并非一蹴而就，而是通过多年的积累与努力，克服了无数的挑战。</p>
-        <p>作为一名职业选手，TheShy不仅在中国电竞圈内拥有极高的声誉，他的名字也在全球范围内传颂。无论是他的英雄技能，还是他在赛场上所展现出的无畏精神，TheShy都深深地影响了许多《英雄联盟》的玩家。</p>
-        <p>他的故事，是每一个电竞爱好者心中的传奇，激励着无数年轻人追求自己的梦想，勇敢面对挑战。</p>
-    </section>
+    <!-- 世界赛精彩瞬间 -->
+    <section id="highlights">
+        <h2>世界赛精彩瞬间</h2>
+        <p>以下是近几年世界赛中的精彩画面，展示了《英雄联盟》职业赛场上的极致操作和令人热血沸腾的时刻：</p>
 
-    <section id="contact">
-        <h2>联系方式</h2>
-        <p>如果您有任何问题，请通过以下方式联系我。</p>
+        <div class="highlight">
+            <h3>Gumayusi抢龙</h3>
+            <img src="images/gumayusi-dragon.jpg" alt="Gumayusi抢龙" class="highlight-img">
+            <p>在某次世界赛中，T1的ADC选手Gumayusi在极为紧张的局势下成功抢下龙魂，帮助队伍逆转局势，最终获得比赛的胜利。</p>
+        </div>
+
+        <div class="highlight">
+            <h3>Kingen单杀Zeus</h3>
+            <img src="images/kingen-zeus.jpg" alt="Kingen单杀Zeus" class="highlight-img">
+            <p>在2022年LCK赛区的比赛中，DRX战队的上单选手Kingen上演了一场精彩的单杀操作，击败了T1的Zeus，成为赛场上的英雄。</p>
+        </div>
     </section>
 
     <footer>
-        <p>© 2025 我的个人网站</p>
+        <p>© 2025 我的英雄联盟世界</p>
     </footer>
 </body>
 </html>
